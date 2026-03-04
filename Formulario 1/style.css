@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+}
+
+header {
+    padding: 20px 30px 10px 30px;
+}
+
+h1 {
+    color: rgb(95, 34, 34);
+    font-size: 24px;
+}
+
+.sidebar {
+    width: 18px;
+    min-height: 100vh;
+    background-color: rgb(95, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.sidebar span {
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-color: white;
+}
+
+.contenido {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    font-size: 14px;
+    color: #222;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgb(95, 34, 34);
+    outline: none;
+    width: 95%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.Tipodeafiliacion {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Tipodeafiliacion label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.SolicitantesTitulardecuenta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.SolicitantesTitulardecuenta input[type="text"] {
+    flex: 1;
+    width: 0;
+    min-width: 0;
+}
+
+input[type="submit"] {
+    background-color: rgb(95, 34, 34);
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(120, 50, 50);
+}
+.grid {
+    display: flex;
+    gap: 40px;
+}
+.grind .campo {
+    flex: 1;
+
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.campo input[type="text"]
+.campo input[type="email"] {
+    border: none;
+    border-bottom: 1px solid rgb(95, 34, 34);
+    outline: none;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 2px;
+}
+.fecha-cajitas input {
+    border: 1px solid rgb(200, 150, 150) !important;
+    background: rgb(250, 235, 235);
+    width: 40px !important;
+    text-align: center;
+    padding: 2px !important;
+}
+.fecha-cajitas input[maxlength="4"] {
+    width: 60px !important;
+}
+.firma {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo {
+    border: 1px dashed #aaa;
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #aaa;
+
+
+}

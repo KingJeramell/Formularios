@@ -1,0 +1,162 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+.pagina {
+    position: relative;
+    width: 500px;
+    background: white;
+    padding: 80px 30px 0 30px;
+    overflow: hidden;
+}
+.puntos {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 160px;
+    height: 180px;
+    background-image: radial-gradient(circle, #bbb 1px, transparent 1px);
+    background-size: 10px 10px;
+    pointer-events: none;
+    z-index: 0;
+}
+.flechas {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #00ee00;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 0.75;
+    transform: scaleY(1.4);
+    z-index: 1;
+}
+
+.flechas-abajo {
+    position: absolute;
+    bottom: 80px;;
+    right: -60px;
+    color: #00ee00;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 0.75;
+    transform: scaleY(1.4) rotate(-90deg);
+    z-index: 1;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.gimnasio {
+    background-color: #00ff00;
+    text-align: center;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.gimnasio h2 {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+form {
+    position: relative;
+    z-index: 1;
+}
+.campo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.campo label {
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    min-width: 160px;
+    letter-spacing: 0.5px;
+}
+.campo input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #999; 
+    outline: none;  
+    padding: 2px 4px;
+    height: 22px;
+    border-radius: 4px;
+}
+.campo-radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid #ccc;
+}
+.campo-radio label {
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    min-width: 160px;
+    letter-spacing: 0.5px;
+}
+.campo-radio .opciones {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 13px;
+}
+.legal {
+    font-size: 11px;
+    color: #333;
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+}
+.Footer-form {
+    background-color: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.Footer-form .web {
+color: white;
+font-size: 12px;
+letter-spacing: 1px;
+}
+.Footer-form .logo {
+border: 2px solid #00ee00;
+background: #00ee00;
+color: black;
+font-weight: 900;
+font-size: 11px;
+width: 55px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.gracias {
+    color: #00ff00;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
